@@ -1,0 +1,158 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Open Sans', sans-serif;
+}
+
+:root {
+  --ifm-font-color-base: #44546a;
+  --ifm-heading-color: #34495e;
+}
+
+.markdown h1,
+.markdown h2 {
+  color: #34495e;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.markdown h1 {
+  font-size: 2.5rem;
+}
+
+.markdown h2 {
+  font-size: 2rem;
+}
+
+.markdown p,
+.markdown li {
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+:root {
+  /* Carolina University Blue */
+  --ifm-color-primary: #002868;
+  --ifm-color-primary-dark: #00245e;
+  --ifm-color-primary-darker: #002258;
+  --ifm-color-primary-darkest: #001c49;
+  --ifm-color-primary-light: #002c72;
+  --ifm-color-primary-lighter: #002e78;
+  --ifm-color-primary-lightest: #00368c;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 40, 104, 0.08);
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.asset-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.asset-card:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.asset-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 1.5rem;
+  background-color: #f6f7f9;
+  background-image:
+    linear-gradient(45deg, #eceff3 25%, transparent 25%),
+    linear-gradient(-45deg, #eceff3 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #eceff3 75%),
+    linear-gradient(-45deg, transparent 75%, #eceff3 75%);
+  background-position:
+    0 0,
+    0 8px,
+    8px -8px,
+    -8px 0;
+  background-size: 16px 16px;
+}
+
+.asset-preview-dark {
+  background-color: #002868;
+  background-image: none;
+}
+
+.asset-preview img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 96px;
+  object-fit: contain;
+}
+
+.asset-name {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-weight: 600;
+}
+
+.markdown blockquote {
+  border-left: 4px solid #002868;
+}
+
+.signature-heading {
+  margin: 1.8rem 0 0.75rem;
+  color: #34495e;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.signature-example {
+  margin: 0 0 1.2rem;
+  color: #34495e;
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+
+.signature-example strong {
+  color: #2f4056;
+  font-weight: 700;
+}
+
+.signature-example em {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.signature-link {
+  max-width: 100%;
+  color: #002868;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-decoration-color: #002868;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.08em;
+}
+
+.signature-link:hover {
+  color: #001c49;
+  text-decoration-color: #001c49;
+}

@@ -1,0 +1,381 @@
+.homeMain {
+  background: #f6f7f9;
+  color: #1d2939;
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 540px;
+  padding: 5.5rem 0 4.75rem;
+  background-color: #002868;
+  color: #ffffff;
+}
+
+.hero::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: '';
+  background: rgba(0, 22, 56, 0.68);
+}
+
+.hero::after {
+  position: absolute;
+  inset: auto 0 0;
+  height: 10px;
+  content: '';
+  background:
+    linear-gradient(90deg, #ffca00 0 34%, #bf0a30 34% 48%, #ffffff 48% 100%);
+}
+
+.heroInner,
+.guideSection,
+.brandSection {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow,
+.sectionKicker,
+.cardLabel {
+  margin: 0;
+  color: #ffca00;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  max-width: 680px;
+  margin: 0.65rem 0 1rem;
+  color: #ffffff;
+  font-size: 4rem;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.heroLead {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #f6f7fb;
+  font-size: 1.22rem;
+  line-height: 1.65;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.getStartedAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0.76rem 1.15rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.getStartedAction {
+  background: #bf0a30;
+  border-color: #bf0a30;
+  color: #ffffff;
+}
+
+.getStartedAction:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #bf0a30;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.guideSection {
+  padding: 4.25rem 0 3rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.sectionHeader h2,
+.brandIntro h2 {
+  max-width: 640px;
+  margin: 0.35rem 0 0;
+  color: #24364f;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.guideGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.guideCard {
+  display: flex;
+  min-height: 260px;
+  flex-direction: column;
+  padding: 1.3rem;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1d2939;
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(0, 40, 104, 0.08);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.guideCard:hover {
+  border-color: #002868;
+  color: #1d2939;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px rgba(0, 40, 104, 0.14);
+}
+
+.guideCard h3 {
+  margin: 0.75rem 0 0.65rem;
+  color: #002868;
+  font-size: 1.22rem;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.guideCard p {
+  margin: 0;
+  color: #526174;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.cardLabel {
+  color: #bf0a30;
+}
+
+.cardAction {
+  margin-top: auto;
+  padding-top: 1.1rem;
+  color: #002868;
+  font-size: 0.94rem;
+  font-weight: 800;
+}
+
+.brandSection {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.5fr);
+  gap: 1.5rem;
+  padding: 1rem 0 4.75rem;
+}
+
+.brandIntro {
+  padding-top: 1.5rem;
+}
+
+.brandIntro p:last-child {
+  max-width: 420px;
+  margin: 1rem 0 0;
+  color: #56667a;
+  line-height: 1.7;
+}
+
+.brandPanel {
+  display: grid;
+  gap: 1rem;
+}
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.colorChip {
+  display: flex;
+  min-height: 86px;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.9rem;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.swatch {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.swatch[data-tone='blue'] {
+  background: #002868;
+}
+
+.swatch[data-tone='yellow'] {
+  background: #ffca00;
+}
+
+.swatch[data-tone='red'] {
+  background: #bf0a30;
+}
+
+.colorChip strong,
+.colorChip code {
+  display: block;
+}
+
+.colorChip strong {
+  color: #1d2939;
+}
+
+.colorChip code {
+  margin-top: 0.25rem;
+  color: #526174;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.assetGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.assetTile {
+  overflow: hidden;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.assetPreview {
+  display: flex;
+  height: 148px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  background: #f0f3f7;
+}
+
+.assetPreview[data-tone='dark'] {
+  background: #002868;
+}
+
+.assetPreview img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 104px;
+  object-fit: contain;
+}
+
+.assetName {
+  display: block;
+  min-height: 52px;
+  padding: 0.75rem 0.85rem;
+  border-top: 1px solid #e4e8ef;
+  color: #24364f;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+@media screen and (max-width: 1100px) {
+  .guideGrid,
+  .assetGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .brandSection {
+    grid-template-columns: 1fr;
+  }
+
+  .brandIntro p:last-child {
+    max-width: 660px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    padding: 4.25rem 0 3.75rem;
+  }
+
+  .heroInner,
+  .guideSection,
+  .brandSection {
+    width: min(100% - 1.25rem, 1120px);
+  }
+
+  .heroTitle {
+    font-size: 2.7rem;
+    line-height: 1.08;
+  }
+
+  .heroLead {
+    font-size: 1.05rem;
+  }
+
+  .sectionHeader {
+    display: block;
+  }
+
+  .sectionHeader h2,
+  .brandIntro h2 {
+    font-size: 1.65rem;
+  }
+
+  .guideGrid,
+  .colorGrid,
+  .assetGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .guideCard {
+    min-height: 220px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .heroActions {
+    display: grid;
+  }
+
+  .getStartedAction {
+    width: 100%;
+  }
+}
