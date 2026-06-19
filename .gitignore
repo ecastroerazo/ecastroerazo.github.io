@@ -19,3 +19,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 ecastroerazo.github.io/
+build/
+.docusaurus/
+node_modules/
+.DS_Store
