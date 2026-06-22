@@ -129,7 +129,7 @@ export default function Home(): ReactNode {
             <div className={styles.heroActions}>
               <Link
                 className={styles.getStartedAction}
-                to="/docs/Branding%20Guidelines/Athletic%20Brand%20Management">
+                to="/docs/category/carolina-university-branding">
                 Get Started
               </Link>
             </div>
