@@ -1,7 +1,7 @@
 # Name and Seal
 > Refer to the [Carolina University Branding](../Carolina%20University%20Branding/University%20Seals) page for full-resolution copies of the seal mentioned.  
 
-It is the policy of Carolina University that the development and application of Carolina University’s brand standards are determined by the Marketing and Communications Department as approved by the office of the President.
+It is the policy of Carolina University that the development and application of Carolina University’s brand standards are determined by the Communications Department as approved by the office of the President.
 
 ## Procedures
 All Carolina University community members are required to use Carolina University seal, publication guidelines and graphics standards as outlined in the CU Brand Standards Style Guide.
