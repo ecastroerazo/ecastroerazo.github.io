@@ -12,6 +12,6 @@ Do not compromise the overall look of the logo by rotating, skewing, or distorti
 4.  Do not resize any one part.
 5.  Do not rearrange parts or create compositions that are not already provided.
 6.  Do not add unofficial graphics to the logo.
-7.  Do not use off-brand colors. Reference the Carolina University Branding page for official colors.
+7.  Do not use off-brand colors. Reference the Carolina University Branding page for [official colors](/docs/Carolina%20University%20Branding/Colors).
 8.  Do not add dropshadows or other texts styles.
 9.  Do not contain the logo in a box when used on a background

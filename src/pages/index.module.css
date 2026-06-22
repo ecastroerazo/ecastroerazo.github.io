@@ -5,11 +5,18 @@
 
 .hero {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   isolation: isolate;
   overflow: hidden;
-  min-height: 540px;
-  padding: 5.5rem 0 4.75rem;
+  min-height: 750px;
+  padding: 4.75rem 0;
   background-color: #002868;
+  background-image: url('/img/Fountain%20Gradient.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 }
 
@@ -18,7 +25,6 @@
   inset: 0;
   z-index: -1;
   content: '';
-  background: rgba(0, 22, 56, 0.68);
 }
 
 .hero::after {
