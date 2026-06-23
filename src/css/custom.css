@@ -10,6 +10,17 @@
   --ifm-font-family-base: 'Open Sans', sans-serif;
 }
 
+.navbar-icon-link {
+  line-height: 0;
+}
+
+.navbar-icon {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
 :root {
   --ifm-font-color-base: #44546a;
   --ifm-heading-color: #34495e;
